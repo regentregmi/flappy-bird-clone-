@@ -4,7 +4,7 @@ import os
 
 pygame.init()  
 
-# Constan
+
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 600
 PIPE_WIDTH = 70
