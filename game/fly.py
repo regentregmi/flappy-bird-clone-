@@ -61,6 +61,7 @@ class Pipe:
         pygame.draw.rect(screen, GREEN, (self.x, self.height + PIPE_GAP, PIPE_WIDTH, SCREEN_HEIGHT))
 
 # Main Game Function
+
 def main():
     clock = pygame.time.Clock()
     bird = Bird()
