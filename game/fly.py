@@ -117,6 +117,7 @@ def main():
         pygame.display.flip()
         clock.tick(FPS)
 
-# Run the game
+# Game run
 if __name__ == "__main__":
     main()
+
