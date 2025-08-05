@@ -43,7 +43,7 @@ class Bird:
         self.y += self.velocity
 
     def draw(self):
-        rotated_bird = pygame.transform.rotate(bird_img, -self.velocity * 2)  # Rotate based on velocity
+        rotated_bird = pygame.transform.rotate(bird_img, -self.velocity * 2)               # Rotate based on velocity
         screen.blit(rotated_bird, (self.x, self.y))
 
 # Pipe Class
@@ -118,7 +118,9 @@ def main():
         clock.tick(FPS)
 
 # Game run
+
 if __name__ == "__main__":
     main()
+
 
 
