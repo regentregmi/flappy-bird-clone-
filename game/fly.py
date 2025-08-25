@@ -9,7 +9,7 @@ SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 600
 PIPE_WIDTH = 70
 PIPE_GAP = 150
-GRAVITY = 0.10
+GRAVITY = 0.8
 FLAP_STRENGTH = -8
 FPS = 60
 
@@ -121,6 +121,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
