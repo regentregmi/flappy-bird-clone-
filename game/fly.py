@@ -14,6 +14,7 @@ FLAP_STRENGTH = -8
 FPS = 60
 
 # Colors
+
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREEN = (0, 255, 0)
@@ -121,6 +122,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
